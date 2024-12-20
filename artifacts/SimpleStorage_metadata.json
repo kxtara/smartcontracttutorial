@@ -25,6 +25,24 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "favoriteNumber",
 				"outputs": [
@@ -32,6 +50,54 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -106,10 +172,10 @@
 	},
 	"sources": {
 		"SimpleStorage.sol": {
-			"keccak256": "0x04006e47c86b374400b626f8572cef9c236d194d626518ab30de346563a303e0",
+			"keccak256": "0x40ceebdbd04955579ceef8630fd37e3d1961cb0614c8e59cd4baf954f79e9773",
 			"urls": [
-				"bzz-raw://0b217f75324eb194ad7ce5bb1dff5c41d86943e26b924fae423d822851abe1ae",
-				"dweb:/ipfs/Qmcv9efCvfKtFA85ikLNUMpbk57vLdR8LN9FZCry1tvamF"
+				"bzz-raw://226f2b7b5879ad3ae18bbc0de814f818ae9fce454603aea018fa8d899f52a018",
+				"dweb:/ipfs/QmfDRGevjNw132yy8Dbhoi4rM3bWM5QpCgXEXVSsJZAZF1"
 			]
 		}
 	},
