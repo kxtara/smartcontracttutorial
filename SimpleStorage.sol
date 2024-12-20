@@ -63,12 +63,16 @@ contract SimpleStorage {
     People[] public people;  // This is a dynamic array
     People[2] public people2;  // This is a fixed array of 2 elements
 
+    // Like a hashmap/object key:string , value : uint256
+    mapping(string => uint256) public nameToFavoriteNumber;
+
     // Two ways to store information: Memory or Storage
     // Memory (keyword) - Data will only be store during the execution of the function.
     // Storage (keyword) - Data will persist after the function executes.
     // String (keyword) - Is an array of bytes
     function addPerson(string memory _name, uint256 _favoriteNumber) public {
         people.push(People(_favoriteNumber, _name));
+        nameToFavoriteNumber[_name] = _favoriteNumber;
     }
     
 
