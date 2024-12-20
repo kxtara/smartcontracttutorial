@@ -39,6 +39,24 @@
 			},
 			{
 				"inputs": [],
+				"name": "person",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "retrieve",
 				"outputs": [
 					{
@@ -88,10 +106,10 @@
 	},
 	"sources": {
 		"SimpleStorage.sol": {
-			"keccak256": "0xebf1a08a08aad508efd5ad1a10d000246a612cf120ecd92e518eeb8691c10135",
+			"keccak256": "0x04006e47c86b374400b626f8572cef9c236d194d626518ab30de346563a303e0",
 			"urls": [
-				"bzz-raw://b4a01315dc423c36e652a732d69ceef5108f5ad9a96ccf502f709c116cd7242e",
-				"dweb:/ipfs/Qmbc8KKACwTn3s4Mr5DgotkoHYArdsLAYBWcnS6bd5HeJB"
+				"bzz-raw://0b217f75324eb194ad7ce5bb1dff5c41d86943e26b924fae423d822851abe1ae",
+				"dweb:/ipfs/Qmcv9efCvfKtFA85ikLNUMpbk57vLdR8LN9FZCry1tvamF"
 			]
 		}
 	},

@@ -50,4 +50,13 @@ contract SimpleStorage {
     function addNumber(uint256 _number) public pure returns (uint256) {
         return _number + _number;
     }
+
+    // Struct - Are ways to define new types, (like creating new objects)
+    struct People {
+        uint256 favoriteNumber;
+        string name;
+    }
+
+    People public person = People({favoriteNumber : 5,name :"Kim"});
+
 }
