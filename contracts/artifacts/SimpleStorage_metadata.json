@@ -176,7 +176,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SimpleStorage.sol": "SimpleStorage"
+			"contracts/SimpleStorage.sol": "SimpleStorage"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -190,11 +190,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"SimpleStorage.sol": {
-			"keccak256": "0xe8f96ceba88373d84aaf907ea337d8ed6d4d35549228246c7ed5a1bd2e57d0c9",
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0x3f3133e74993a7a73f28236c8b821f683feccb45c49374e8d2f3d43f70707aa0",
 			"urls": [
-				"bzz-raw://ccc18ce7352ab6212386083f0269af6c23a720e8756c2917d9a8b49514205c79",
-				"dweb:/ipfs/QmdJ4UDfAACyeWDzLX1aDpqkfSyd96XckCk53sLN5Z5BuN"
+				"bzz-raw://c62c71ab19b0320adf53dc1189f71ef9edb238e2c5bcc429a330cbd495a5f83b",
+				"dweb:/ipfs/QmXJLRxapS4a4QJmxQonjFzt2M7PmgaGWwGU7y3YE5LTEv"
 			]
 		}
 	},

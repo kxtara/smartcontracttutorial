@@ -27,7 +27,7 @@ contract SimpleStorage {
     Private functions and state variables are only visible to the contract they are defined in and 
     not in derived contracts.
     */
-
+    
     /* Modifiers
     pure: Disallows modification or access of state. (pure math operations)
     view: Disallows modification of state. (view state variables without changing them)

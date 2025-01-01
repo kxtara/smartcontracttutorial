@@ -1,0 +1,40 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StorageFactory.sol": {
+			"keccak256": "0x5ff45bc224b2dde8cdf0a2e84a83a961daac4f8a07e8ece9a4343a2ebdad8d19",
+			"urls": [
+				"bzz-raw://36d926b5f12be2b0101cab86725ed7ef7b278e54f44ab3a65e87fb54ee49af68",
+				"dweb:/ipfs/QmdzrdPoMwgTjuYYhR5WEo2MFipcVjSn1d4JpLT3UbQfWn"
+			]
+		}
+	},
+	"version": 1
+}
