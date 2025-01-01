@@ -4,7 +4,34 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createSimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "simpleStorageArray",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"methods": {}
 		},
@@ -28,11 +55,18 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/StorageFactory.sol": {
-			"keccak256": "0x5ff45bc224b2dde8cdf0a2e84a83a961daac4f8a07e8ece9a4343a2ebdad8d19",
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0x3f3133e74993a7a73f28236c8b821f683feccb45c49374e8d2f3d43f70707aa0",
 			"urls": [
-				"bzz-raw://36d926b5f12be2b0101cab86725ed7ef7b278e54f44ab3a65e87fb54ee49af68",
-				"dweb:/ipfs/QmdzrdPoMwgTjuYYhR5WEo2MFipcVjSn1d4JpLT3UbQfWn"
+				"bzz-raw://c62c71ab19b0320adf53dc1189f71ef9edb238e2c5bcc429a330cbd495a5f83b",
+				"dweb:/ipfs/QmXJLRxapS4a4QJmxQonjFzt2M7PmgaGWwGU7y3YE5LTEv"
+			]
+		},
+		"contracts/StorageFactory.sol": {
+			"keccak256": "0xd27258ebb8e91ed29514c345e84d1a106c840d5dcb468992f1dc1daa7c4e7f13",
+			"urls": [
+				"bzz-raw://d118fb083f8bcc640ea2ded4908d72d0e78501fad65d1af4ad5949e26cf8944d",
+				"dweb:/ipfs/QmaDZRXuooJU6Hno4Xvqt8Yg9vaKbWkCJFFRLE1Dp6zcxo"
 			]
 		}
 	},
