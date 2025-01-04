@@ -63,10 +63,10 @@
 			]
 		},
 		"contracts/StorageFactory.sol": {
-			"keccak256": "0xd27258ebb8e91ed29514c345e84d1a106c840d5dcb468992f1dc1daa7c4e7f13",
+			"keccak256": "0xda3aee7e4a250f922c14b0d5c1f9600da29254b3f0f408e727dd78f5c2c23c6c",
 			"urls": [
-				"bzz-raw://d118fb083f8bcc640ea2ded4908d72d0e78501fad65d1af4ad5949e26cf8944d",
-				"dweb:/ipfs/QmaDZRXuooJU6Hno4Xvqt8Yg9vaKbWkCJFFRLE1Dp6zcxo"
+				"bzz-raw://7ac885d604a2c7a5935a31c761e6ae4c86d1f163f9d15ec75a2bda592e391057",
+				"dweb:/ipfs/QmPu32v9FgAG7TBcGX2DQvh8ebd4kQaMYoV2D58Ld1hwBc"
 			]
 		}
 	},

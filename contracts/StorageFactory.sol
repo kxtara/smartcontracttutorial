@@ -13,7 +13,7 @@ contract StorageFactory {
     function createSimpleStorageContract() public {
         SimpleStorage simpleStorage = new SimpleStorage(); 
         // create an object of type SimpleStorage
-        simpleStorageArray.push();(simpleStorage);
+        simpleStorageArray.push(simpleStorage);
         
     }
 }
